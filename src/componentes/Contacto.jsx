@@ -41,12 +41,12 @@ export default function Contacto() {
           <div className="flex items-center space-x-3">
             <FaGithub className="text-indigo-400 text-xl" />
             <a
-              href="https://github.com/jesusaldair"
+              href="https://github.com/aldairflores27/Portafolio"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-indigo-300 transition-colors duration-200"
             >
-              github.com/jesusaldair
+              github.com/miportafolio
             </a>
           </div>
         </div>
