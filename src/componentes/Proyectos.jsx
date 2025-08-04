@@ -41,6 +41,7 @@ export default function Proyectos() {
           />
           <h4 className="text-xl font-bold text-yellow-300 mb-2">RRHH</h4>
           <p className="text-gray-300 mb-4">
+            Objetivo : Utilizar Logueo con Google Auth y CRUD "modulo de crear empleados"
             Página de Recursos Humanos que permite ver información, crear empleados, así como eliminar, editar y guardar cambios.
           </p>
           <div className="flex gap-3">
@@ -50,8 +51,17 @@ export default function Proyectos() {
               rel="noopener noreferrer"
               className="px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 transition"
             >
-              Ver código
+              Ver repositorio
             </a>
+           <a
+    href="https://rrhh-main.netlify.app"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 transition"
+  >
+    Ver proyecto
+  </a>
+
           </div>
         </div>
 
