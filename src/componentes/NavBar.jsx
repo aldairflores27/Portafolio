@@ -5,6 +5,7 @@ export default function NavBar() {
       <div className="space-x-4">
         <a href="#inicio" className="text-yellow-300 hover:text-yellow-400">Inicio</a>
         <a href="#habilidades" className="text-yellow-300 hover:text-yellow-400">Habilidades</a>
+         <a href="#DevBlogs" className="text-yellow-300 hover:text-yellow-400">DevBlogs</a>
         <a href="#proyectos" className="text-yellow-300 hover:text-yellow-400">Proyectos</a>
       </div>
     </nav>

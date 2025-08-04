@@ -1,19 +1,26 @@
-import NavBar from './componentes/NavBar'
-import Presentacion from './componentes/Presentacion'
-import Habilidades from './componentes/Habilidades'
-import Proyectos from './componentes/Proyectos'
-import Contacto from './componentes/Contacto'
-import PieDePagina from './componentes/PieDePagina'
+import React from 'react';
+import NavBar from './componentes/NavBar';
+import Presentacion from './componentes/Presentacion';
+import Habilidades from './componentes/Habilidades';
+import Proyectos from './componentes/Proyectos';
+import Devblogs from './componentes/Devblogs';
+import Contacto from './componentes/Contacto';
+import PieDePagina from './componentes/PieDePagina';
+import Comentarios from './componentes/Comentarios'; 
 
-export default function App() {
+function App() {
   return (
     <>
       <NavBar />
       <Presentacion />
-      <Habilidades/>
+      <Habilidades />
       <Proyectos />
+      <Devblogs />
       <Contacto />
+      <Comentarios /> 
       <PieDePagina />
     </>
   );
 }
+
+export default App;

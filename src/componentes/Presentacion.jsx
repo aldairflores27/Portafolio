@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import miFoto from '../assets/yo.jpg'; // Asegúrate de tener la imagen correctamente ubicada
+import miFoto from '../assets/yo.jpg'; 
 
 export default function Presentacion() {
   const [mostrarInfo, setMostrarInfo] = useState(false);
@@ -44,11 +44,7 @@ export default function Presentacion() {
         )}
       </div>
 
-      <a href="#proyectos">
-        <button className="mt-8 px-6 py-2 bg-yellow-400 text-gray-900 rounded hover:bg-yellow-300 transition font-semibold shadow">
-          Ver Proyectos
-        </button>
-      </a>
+     
     </section>
   );
 }

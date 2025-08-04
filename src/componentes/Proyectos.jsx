@@ -8,7 +8,7 @@ export default function Proyectos() {
         {/* Proyecto 1 */}
         <div className="bg-gray-900 rounded-lg shadow-lg p-6 border-2 border-yellow-500 hover:scale-105 transition">
           <img
-            src="/src/assets/logopark.png"
+            src="/src/assets/ParkAmigo.jpg"
             alt="ParkAmigo"
             className="w-full h-40 object-cover rounded mb-4"
           />
@@ -33,8 +33,8 @@ export default function Proyectos() {
    {/* Proyecto 2 */}
         <div className="bg-gray-900 rounded-lg shadow-lg p-6 border-2 border-yellow-500 hover:scale-105 transition">
           <img
-            src="/src/assets/RRHH.jpeg" 
-            alt="ParkAmigo"
+            src="/src/assets/RRHH.jpg" 
+            alt="RRHH"
             className="w-full h-40 object-cover rounded mb-4"
           />
           <h4 className="text-xl font-bold text-yellow-300 mb-2">RRHH</h4>
