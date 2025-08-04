@@ -1,3 +1,10 @@
+import blog1 from '../assets/blog1.jpg';
+import blog2 from '../assets/blog2.jpg';
+import blog3 from '../assets/blog3.jpg';
+import blog4 from '../assets/blog4.jpg';
+import blog5 from '../assets/blog5.jpg';
+import blog6 from '../assets/blog6.jpg';
+
 export default function Devblogs() {
   return (
     <section id="Devblogs" className="py-16 px-6 bg-gray-800 text-yellow-400 border-2 border-yellow-400">
@@ -8,13 +15,13 @@ export default function Devblogs() {
         {/* Blog 1 */}
         <div className="bg-gray-900 rounded-lg shadow-lg p-6 border-2 border-yellow-500 hover:scale-105 transition">
           <img
-            src="/src/assets/blog1.jpg"
+            src={blog1}
             alt="blog1"
             className="w-full h-40 object-cover rounded mb-4"
           />
           <h4 className="text-xl font-bold text-yellow-300 mb-2">Usando Tailwind en React</h4>
           <p className="text-gray-300 mb-4">
-           Video blogs sobre como usar Tailwind CSS en React !
+            Video blogs sobre como usar Tailwind CSS en React !
           </p>
           <div className="flex gap-3">
             <a
@@ -23,22 +30,21 @@ export default function Devblogs() {
               rel="noopener noreferrer"
               className="px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 transition"
             >
-             Ver video
+              Ver video
             </a>
-          
           </div>
         </div>
 
-   {/* blog 2 */}
+        {/* Blog 2 */}
         <div className="bg-gray-900 rounded-lg shadow-lg p-6 border-2 border-yellow-500 hover:scale-105 transition">
           <img
-            src="/src/assets/blog2.jpg" 
+            src={blog2}
             alt="Login"
             className="w-full h-40 object-cover rounded mb-4"
           />
           <h4 className="text-xl font-bold text-yellow-300 mb-2">Login GOOGLE AUTH</h4>
           <p className="text-gray-300 mb-4">
-         Video tutorial como implementar Google Auth en tu proyecto react , usando Firebase .
+            Video tutorial como implementar Google Auth en tu proyecto react , usando Firebase .
           </p>
           <div className="flex gap-3">
             <a
@@ -47,21 +53,21 @@ export default function Devblogs() {
               rel="noopener noreferrer"
               className="px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 transition"
             >
-             Ver video
+              Ver video
             </a>
-          
           </div>
         </div>
-  {/* Blog 3 */}
+
+        {/* Blog 3 */}
         <div className="bg-gray-900 rounded-lg shadow-lg p-6 border-2 border-yellow-500 hover:scale-105 transition">
           <img
-            src="/src/assets/blog3.jpg"
-            alt="...."
+            src={blog3}
+            alt="RRHH básico"
             className="w-full h-40 object-cover rounded mb-4"
           />
-          <h4 className="text-xl font-bold text-yellow-300 mb-2">RRHH basico</h4>
+          <h4 className="text-xl font-bold text-yellow-300 mb-2">RRHH básico</h4>
           <p className="text-gray-300 mb-4">
-           Videotutorial pagina RRHH basico usando Google Auth , React , Tailwind y firebsae
+            Videotutorial página RRHH básico usando Google Auth, React, Tailwind y Firebase
           </p>
           <div className="flex gap-3">
             <a
@@ -70,21 +76,21 @@ export default function Devblogs() {
               rel="noopener noreferrer"
               className="px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 transition"
             >
-             Ver video
+              Ver video
             </a>
-          
           </div>
         </div>
-         {/* Blog 4 */}
+
+        {/* Blog 4 */}
         <div className="bg-gray-900 rounded-lg shadow-lg p-6 border-2 border-yellow-500 hover:scale-105 transition">
           <img
-            src="/src/assets/blog4.jpg"
-            alt="...."
+            src={blog4}
+            alt="SERVI+"
             className="w-full h-40 object-cover rounded mb-4"
           />
           <h4 className="text-xl font-bold text-yellow-300 mb-2">SERVI +</h4>
           <p className="text-gray-300 mb-4">
-          Videotutorial donde se explica como hacer una pagina web para tu empresa , en este caso un ejemplo de SERVI+, donde se muestran servidos y productos tecnologicos
+            Videotutorial donde se explica cómo hacer una página web para tu empresa. En este caso, un ejemplo de SERVI+, donde se muestran servicios y productos tecnológicos.
           </p>
           <div className="flex gap-3">
             <a
@@ -93,21 +99,21 @@ export default function Devblogs() {
               rel="noopener noreferrer"
               className="px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 transition"
             >
-             Ver video
+              Ver video
             </a>
-          
           </div>
         </div>
-         {/* Blog 5 */}
+
+        {/* Blog 5 */}
         <div className="bg-gray-900 rounded-lg shadow-lg p-6 border-2 border-yellow-500 hover:scale-105 transition">
           <img
-            src="/src/assets/blog5.jpg"
-            alt="...."
+            src={blog5}
+            alt="RRHH avanzado"
             className="w-full h-40 object-cover rounded mb-4"
           />
           <h4 className="text-xl font-bold text-yellow-300 mb-2">RRHH "opcionempleado"</h4>
           <p className="text-gray-300 mb-4">
-           Video de RRHH avanzadom donde se muestra la configuracion de la pagina de RRHH donde se pueden crear empleados, editar, eliminar y guardad informacion, haciendo uso del CRUD y de las herrmanientas de firebase
+            Video de RRHH avanzado donde se muestra la configuración de la página de RRHH con CRUD usando herramientas de Firebase.
           </p>
           <div className="flex gap-3">
             <a
@@ -116,21 +122,21 @@ export default function Devblogs() {
               rel="noopener noreferrer"
               className="px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 transition"
             >
-             Ver video
+              Ver video
             </a>
-          
           </div>
         </div>
+
         {/* Blog 6 */}
         <div className="bg-gray-900 rounded-lg shadow-lg p-6 border-2 border-yellow-500 hover:scale-105 transition">
           <img
-            src="/src/assets/blog6.jpg"
-            alt="...."
+            src={blog6}
+            alt="RRHH final"
             className="w-full h-40 object-cover rounded mb-4"
           />
           <h4 className="text-xl font-bold text-yellow-300 mb-2">RRHH FINAL</h4>
           <p className="text-gray-300 mb-4">
-        Video de RRHH usando nuevos diseños de interfaces, asi mismo usando CRUD  y herrmanientas de firebase, React, Tailwind, etc
+            Video de RRHH usando nuevos diseños de interfaces, así como CRUD y herramientas como Firebase, React, Tailwind, etc.
           </p>
           <div className="flex gap-3">
             <a
@@ -139,9 +145,8 @@ export default function Devblogs() {
               rel="noopener noreferrer"
               className="px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 transition"
             >
-             Ver video
+              Ver video
             </a>
-          
           </div>
         </div>
       </div>

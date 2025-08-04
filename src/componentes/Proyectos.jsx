@@ -1,3 +1,6 @@
+import ParkAmigo from '../assets/ParkAmigo.jpg';
+import RRHH from '../assets/RRHH.jpg';
+
 export default function Proyectos() {
   return (
     <section id="proyectos" className="py-16 px-6 bg-gray-800 text-yellow-400 border-2 border-yellow-400">
@@ -8,14 +11,14 @@ export default function Proyectos() {
         {/* Proyecto 1 */}
         <div className="bg-gray-900 rounded-lg shadow-lg p-6 border-2 border-yellow-500 hover:scale-105 transition">
           <img
-            src="/src/assets/ParkAmigo.jpg"
+            src={ParkAmigo}
             alt="ParkAmigo"
             className="w-full h-40 object-cover rounded mb-4"
           />
           <h4 className="text-xl font-bold text-yellow-300 mb-2">ParkAmigo</h4>
           <p className="text-gray-300 mb-4">
-            Sistema de reservación de espacio para estacionamiento, permite que los usuarios se registren y tengan los beneficios de nuestra software.
-            Este proyecto cuenta con App Movil y Escritorio
+            Sistema de reservación de espacio para estacionamiento, permite que los usuarios se registren y tengan los beneficios de nuestro software.
+            Este proyecto cuenta con App Móvil y Escritorio.
           </p>
           <div className="flex gap-3">
             <a
@@ -26,20 +29,19 @@ export default function Proyectos() {
             >
               Ver código
             </a>
-          
           </div>
         </div>
 
-   {/* Proyecto 2 */}
+        {/* Proyecto 2 */}
         <div className="bg-gray-900 rounded-lg shadow-lg p-6 border-2 border-yellow-500 hover:scale-105 transition">
           <img
-            src="/src/assets/RRHH.jpg" 
+            src={RRHH}
             alt="RRHH"
             className="w-full h-40 object-cover rounded mb-4"
           />
           <h4 className="text-xl font-bold text-yellow-300 mb-2">RRHH</h4>
           <p className="text-gray-300 mb-4">
-           Pagina de Recursos Humanos que permite ver información , crear empleados asi como eliminar , editar y guardar cambios
+            Página de Recursos Humanos que permite ver información, crear empleados, así como eliminar, editar y guardar cambios.
           </p>
           <div className="flex gap-3">
             <a
@@ -50,7 +52,6 @@ export default function Proyectos() {
             >
               Ver código
             </a>
-          
           </div>
         </div>
 
